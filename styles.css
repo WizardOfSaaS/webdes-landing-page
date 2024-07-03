@@ -143,6 +143,12 @@ nav {
 	border-color: skyblue;
 }
 
+#video {
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
 /* Footer */
 
 footer {
