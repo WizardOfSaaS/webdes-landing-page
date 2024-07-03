@@ -193,7 +193,17 @@ nav {
 /* Footer */
 
 footer {
-	font-size: 12px;
+	font-size: 16px;
+	padding: 30px;
+}
+
+footer ul {
+	text-indent: 2em;
+	list-style: none;
+}
+
+#disclaimer {
+	margin-top: 10px;
 }
 
 /* Media */
