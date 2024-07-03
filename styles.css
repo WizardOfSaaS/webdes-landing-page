@@ -138,6 +138,7 @@ nav {
 	font-size: 21px;
 	text-align: center;
 	margin-bottom: 10px;
+	border-bottom: 4px solid hsl(197, 27%, 46%);
 }
 
 .product-card .price {
