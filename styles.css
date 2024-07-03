@@ -149,6 +149,35 @@ nav {
 	padding: 20px;
 }
 
+/* Contact */
+#contact p, #email {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#email {
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#submit {
+	padding: 10px;
+	font-size: 18px;
+	margin: 5px auto;
+	font-weight: bold;
+	display: block;
+	border: 4px solid gray;
+	border-radius: 15%;
+	cursor: pointer;
+}
+
+#submit:hover {
+	border: 4px solid blue;
+	color: navy;
+}
+
 /* Footer */
 
 footer {
