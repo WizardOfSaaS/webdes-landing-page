@@ -9,7 +9,7 @@
 body {
 	font-family: Arial, Helvetica, sans;
 	max-width: 800px;
-	margin: 10px auto;
+	margin: 0 auto 10px auto;
 }
 
 section {
@@ -29,8 +29,20 @@ header {
 	gap: 8px;
 	align-items: center;
 	position: sticky;
+	top: 0;
 	padding: 10px;
-	margin: 1px solid gray;
+	border: 1px solid gray;
+	background-image: linear-gradient(90deg,#888 10%, #aaa, #bbb 70%);
+}
+
+#navbar a {
+	color: #333;
+	padding: 3px;
+	border-radius: 20%;
+}
+
+#navbar a:hover {
+	background-color: #999;
 }
 
 header img {
